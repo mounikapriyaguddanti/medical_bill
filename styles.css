@@ -1,0 +1,56 @@
+/* Add your CSS styles here */
+body{
+  background-image: url(D1.webp);
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f6e8d6;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color:orangered;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: orangered;
+}
+
+#patientList {
+  margin-top: 20px;
+}
+
+#patientList div {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
